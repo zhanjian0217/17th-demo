@@ -1,5 +1,7 @@
 class Cat
-  def initialize(name)
-    @name = name
+  class << self
+    def qwe
+      puts 'QWEQWEQWE'
+    end
   end
 end
